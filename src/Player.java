@@ -1,5 +1,6 @@
 public class Player extends Entity {
-    Player(){}
 
-
+    Player(int xPos, int yPos) {
+        super(xPos, yPos);
+    }
 }
